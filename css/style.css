@@ -19,26 +19,22 @@ body *, body *::before, body::after{
 }
 .main{
     background-color: blue;
-    padding: 30px 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
 }
-.main::after{
-    content: " " ;
-    display: block;
-    clear: both;
-}
+
 .group{
     height: 60vh;
-    margin: 0 15px;
 }
 .group1{
     background-color: violet;
-    float: left;
     width: 250px;
 }
 .group2{
     background-color: aqua;
     width: 380px;
-    float: left;
 }
 .group3{
     background-color: brown;
